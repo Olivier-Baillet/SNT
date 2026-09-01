@@ -145,7 +145,3 @@ Remarques :
     - Le réseau « centré » correspond (dans l'idée) à la télévision, ou à la diffusion d'un journal imprimé.
 - En répondant à la dernière question, je précise que c'est une bonne illustration du métier d'ingénieur, dont le travail est de trouver la meilleure solution à un problème soumis à plusieurs contraintes incompatibles (avec comme exemple la construction d'un pont routier au dessus d'une rivière, dont on veut qu'il soit proche de la sortie d'autoroute, mais sans faire exploser le traffic dans un petit village, tout en préservant une zone naturelle protégée, en diminuant les coût au maximum pour construire un ouvrage le plus solide et durable possible…).
 - Il est possible de faire le travail sur le réseau décrentralisé en classe entière (parce que c'est le plus compliqué à dessiner), puis diviser la classe en trois groupes pour travailler les suivants, avant une mise en commun. Cela permet de gagner du temps…
-
-[https://app.videas.fr/embed/media/70004f52-cb64-57eb-9e06-900a08430044/](https://app.videas.fr/embed/media/70004f52-cb64-57eb-9e06-900a08430044/)
-
-[Activité I :](Introduction%20%C3%A0%20Internet/Activit%C3%A9%20I%202a09d1894135807abb08f551eb6ae451.md)
