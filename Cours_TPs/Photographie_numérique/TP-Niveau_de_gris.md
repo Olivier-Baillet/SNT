@@ -90,7 +90,7 @@ imageGris.show( )
 
 ### Rappel :
 
-<aside>
+<aside markdown="1">
 💡
 
 ### Variable
@@ -120,7 +120,7 @@ Ici `imageSource` est une variable également, est correspond à l’image initi
 
 > /!\ Attention : “image.png” correspond au nom de fichier que vous avez sauvegarder dans le dossier du TP. Si vous l’avez changé il faut modifier ce nom également.
 > 
-</aside>
+</aside markdown="1">
 
 ## IV. Questions
 
@@ -131,7 +131,7 @@ Pendant ce TP, nous utiliserons deux variables images différentes :
 
 1. Remplacer les “…” de la ligne 8 du programme par une variable image, qui utilisera l’instruction `.size` afin de stocker dans les variables `largeur` et `longueur` les valeurs correspondantes aux deux dimensions de l'image initiale du perroquet.
 
-<aside>
+<aside markdown="1">
 💡
 
 ### Instruction size
@@ -155,12 +155,12 @@ tailleX , TailleY = imageExemple.size
 
 Pour la variable `imageExemple`, cela donne une variable `tailleX` égale à 10 et une variable `TailleY` égale à 20.
 
-</aside>
+</aside markdown="1">
 
 1. Compléter les “…” de la ligne 11 du programme afin de créer une nouvelle image nommée `imageSource`, dont les dimensions seront les mêmes que notre image de couleur initial.
 Donc les variables `largeur` et `hauteur` de l’image d’origine.
 
-<aside>
+<aside markdown="1">
 💡
 
 ### Nouvelle image
@@ -173,14 +173,14 @@ imageGris = Image.new("RGB" , ( L, H ))
 
 Ici, `L` et `H` doivent être remplacés par des variables qui s’adapteront aux dimensions de l’image.
 
-</aside>
+</aside markdown="1">
 
 1. Compléter la ligne 19 du programme avec getpixel(), afin de stocker dans les variables nommées `r`, `v` et `b` les composantes RVB du pixel de coordonnées (x,y) de l'image du perroquet initiale.
     
     Penser à utiliser la variable image déjà créée dans ce programme qui stocke l'image initiale du perroquet.
     
 
-<aside>
+<aside markdown="1">
 💡
 
 ### Récupérer les pixels
@@ -193,11 +193,11 @@ r,v,b = photo.getpixel (( x , y ))
 
 S’ils ont souhaite récupérer les valeurs des trois composantes d’un pixel pour une autre image, il faudra dans ce cas changer la variable `photo` par la variable de l’image souhaitée.
 
-</aside>
+</aside markdown="1">
 
 1. Compléter la ligne 22 du programme en utilisant la formule de niveau de gris afin de stocker dans la variable nommée `g` le niveau de gris calculé.
 
-<aside>
+<aside markdown="1">
 💡
 
 ### Formule niveau de gris
@@ -215,14 +215,14 @@ g = int((r + v + b) / 3)
 
 L'instruction `int` permet de ne garder que la partie entière (c'est-à-dire celle devant la virgule) du résultat du calcul.
 
-</aside>
+</aside markdown="1">
 
 1. Compléter la ligne 25 du programme en utilisant l’instruction `putpixel` afin de mettre le pixel de coordonnées (x,y) de l'image nouvellement construite au niveau de gris calculé.
     
     Penser à utiliser une variable déjà créée dans ce programme.
     
 
-<aside>
+<aside markdown="1">
 💡
 
 ### Instruction putpixel
@@ -235,7 +235,7 @@ photo.putpixel((x,y),(r,v,b))
 
 On remplace ensuite, pour ce pixel, la couleur (r, v, b) par la couleur nouvellement créé `g` pour chacune des composantes.
 
-</aside>
+</aside markdown="1">
 
 ## Vérification
 
@@ -312,13 +312,13 @@ imageBut.show( )
     - La formule donnant le négatif d'un pixel
     - L'instruction `putpixel`  afin de mettre le pixel de coordonnées (x,y) de l'image nouvellement construite à niveau de la couleur RVB correspondant au négatif.
     
-    <aside>
+    <aside markdown="1">
     💡
     
     Le négatif d'une image est une image dont les couleurs sont inversées par rapport à l'originale c'est-à-dire :
     
     - quand l'image originale est en RVB alors si $(r,v,b)$ sont les trois composantes d'un pixel de l'image d'origine alors les composantes du pixel négatif correspondant sont $(255−r, 255−v, 255−b)$.
-    </aside>
+    </aside markdown="1">
     
 2. Vérifier que l'image obtenue est la suivante :
 
