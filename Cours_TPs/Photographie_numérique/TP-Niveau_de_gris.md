@@ -315,13 +315,13 @@ imageBut.show( )
 3. Compléter la ligne 21 du programme en utilisant :
     - La formule donnant le négatif d'un pixel
     - L'instruction `putpixel`  afin de mettre le pixel de coordonnées (x,y) de l'image nouvellement construite à niveau de la couleur RVB correspondant au négatif.  
+
+<aside markdown="1">
+💡 Le négatif d'une image est une image dont les couleurs sont inversées par rapport à l'originale c'est-à-dire :
+
+- Quand l'image originale est en RVB alors si $$(r,v,b)$$ sont les trois composantes d'un pixel de l'image d'origine alors les composantes du pixel négatif correspondant sont $$(255-r, 255-v, 255-b)$$.
+</aside>
     
-	<aside markdown="1">
-    💡Le négatif d'une image est une image dont les couleurs sont inversées par rapport à l'originale c'est-à-dire :
-   
-	  - quand l'image originale est en RVB alors si $$(r,v,b)$$ sont les trois composantes d'un pixel de l'image d'origine alors les composantes du pixel négatif correspondant sont $$(255−r, 255−v, 255−b)$$.
-    
-	</aside>
 4. Vérifier que l'image obtenue est la suivante :
 
 ![image.png](TP%20Niveau%20de%20gris/image%203.png)
