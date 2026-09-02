@@ -7,7 +7,7 @@ Vous pouvez faire ce travail à plusieurs, mais prenez garde à bien comprendre 
 
 *Lorsqu'une question est marquée d'un symbole 🔎, la réponse peut-être cherchée sur Internet.*
 
-</aside>
+</aside markdown="1">
 
 ## **Pixels, Définition, Résolution**
 
@@ -45,7 +45,7 @@ Quelle est la résolution en densité (ppp) de cet écran ?
     1. 🔎 Convertir la largeur de la télé en pouces (arrondir au dixième).
     2. La résolution est-elle plus grande ou plus petite que celle du téléphone portable étudié à la question précédente ? Comment expliquer cette différence ?
 
-<aside>
+<aside markdown="1">
 💡
 
 - Je connais la définition/différence de *résolution* et *définition*.
@@ -129,7 +129,7 @@ Nous voyons sur la capture d'écran que la couleur rose pâle correspond aux nom
     - (255, 128, 0)
 5. Combien de couleurs différentes est-il possible de coder en utilisant cette méthode ?
 
-<aside>
+<aside markdown="1">
 💡
 
 - Je connais la signification des initiales RGB.
@@ -208,7 +208,7 @@ En floutant numériquement la photo de gauche, la photo de droite donne l'impres
     - Insérer une photo exemple d’un de ces deux filtres
 3. Une photographie peut-elle être une preuve irréfutable (`oui` ou `non`) ? Pourquoi ?
 
-<aside>
+<aside markdown="1">
 💡
 
 - Je sais donner et décrire quelques algorithmes de manipulation d'image.
@@ -227,7 +227,7 @@ Répondre aux questions suivantes (toutes les réponses se trouvent dans le docu
 3. Pourquoi y a-t-il deux fois plus de photosites verts que de photosites des autres couleurs ? 
 4. Combien de photosites faut-il associer pour créer un seul pixel ?
 
-<aside>
+<aside markdown="1">
 💡
 
 - Je suis capable de répondre aux quatre questions ci-dessus.
