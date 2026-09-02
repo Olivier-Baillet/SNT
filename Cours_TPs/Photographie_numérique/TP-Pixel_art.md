@@ -41,7 +41,7 @@ Voici l'explication de chaque ligne :
 
 - Chargement de la bibliothèques `pillow`, qui permet à Python de manipuler des images.
     
-    **`from** PIL **import** Image`
+    `from PIL import Image`
     
 - Création de la couleur `bleuFonce` en utilisant le format RGB.
     
@@ -49,16 +49,16 @@ Voici l'explication de chaque ligne :
     
 - Création d'une nouvelle image, utilisant le format `‘RGB’` de `3` pixels de large par `2` pixel de haut.
     
-    `image **=** Image**.**new**(**'RGB'**,** **(3,** **2))**`
+    `image = Image.new('RGB', (3, 2))`
     
 - Tracé d'un pixel de couleur `bleuFonce` aux coordonnées `(0, 1)`.
     
-    `image**.**putpixel**((0,** **1),** bleuFonce **)**`
+    `image.putpixel((0, 1), bleuFonce )`
     
 - Écriture de l'image dans le fichier `image.png`, puis affichage de l'image.
     
-    `image**.**save**(**"image.png"**)**
-     image**.**show**()**`
+    `image.save("image.png")
+     image.show()`
     
 
 ---
@@ -124,22 +124,22 @@ Plutôt que de définir les pixels un à un, il est possible d'utiliser des bouc
 ### **Quelques bandes**
 
 ```python
-**from** PIL **import** Image
+from PIL import Image
 
 *# On définit une image noire de 256 pixels par 256 pixels*
-image **=** Image**.**new**(**"RGB"**,** **(256,** **256))**
+image = Image.new("RGB", (256, 256))
 
 *# Pour chaque valeur de x, colorier le pixel de coordonnées (x, 7)
 # Cela colorie toute la ligne de rang 7.*
-**for** x **in** range**(256):**
-	image**.**putpixel**((**x**,** **7),** **(255,** **0,** **0))**
+for x in range(256):
+	image.putpixel((x, 7), (255, 0, 0))
 	
 *# Pour chaque valeur de y, colorier le pixel de coordonnées (10, y)
 # Cela colorie toute la ligne de rang 10.*
-**for** y **in** range**(256):**
-	image**.**putpixel**((10,** y**),** **(255,** **255,** **0))**
+for y in range(256):
+	image.putpixel((10, y), (255, 255, 0))
 
-image**.**save**(**"image.png"**)**
+image.save("image.png")
 ```
 
 ![_primary](https://snt.ababsurdo.fr/la-photographie-numerique/pixelart/bande1.png)
@@ -147,15 +147,15 @@ image**.**save**(**"image.png"**)**
 ### **Encore plus de bandes**
 
 ```python
-**from** PIL **import** Image
+from PIL import Image
 
-image **=** Image**.**new**(**"RGB"**,** **(256,** **256))
-for** y **in** range**(26):
-	for** x **in** range**(256):
-		for** h **in** range**(5):**
-			image**.**putpixel**((**x**,** **10***y**+**h**),** **(255,** **0,** **0))**
+image = Image.new("RGB", (256, 256))
+for y in range(26):
+	for x in range(256):
+		for h in range(5):
+			image.putpixel((x, 10*y+h), (255, 0, 0))
 		
-image**.**save**(**"image.png"**)**
+image.save("image.png")
 ```
 
 ![_primary](https://snt.ababsurdo.fr/la-photographie-numerique/pixelart/bande2.png)
@@ -163,21 +163,21 @@ image**.**save**(**"image.png"**)**
 ### **Entrelacs**
 
 ```python
-**from** PIL **import** Image
+from PIL import Image
 
-image **=** Image**.**new**(**"RGB"**,** **(256,** **256))
-for** y **in** range**(26):
-	for** x **in** range**(256):
-		for** h **in** range**(5):**
-			image**.**putpixel**((**x**,** **10***y**+**h**),** **(255,** **0,** **0))
+image = Image.new("RGB", (256, 256))
+for y in range(26):
+	for x in range(256):
+		for h in range(5):
+			image.putpixel((x, 10*y+h), (255, 0, 0))
 			
-for** x **in** range**(26):
-	for** y **in** range**(256):
-		for** h **in** range**(5):**
-			r**,** g**,** b **=** image**.**getpixel**((10***x**+**h**,** y**))**
-			image**.**putpixel**((10***x**+**h**,** y**),** **(**r**,** **255,** **0))**
+for x in range(26):
+	for y in range(256):
+		for h in range(5):
+			r, g, b = image.getpixel((10*x+h, y))
+			image.putpixel((10*x+h, y), (r, 255, 0))
 	
-image**.**save**(**"image.png"**)**
+image.save("image.png")
 ```
 
 ![_primary](https://snt.ababsurdo.fr/la-photographie-numerique/pixelart/entrelacs.png)
@@ -187,17 +187,17 @@ image**.**save**(**"image.png"**)**
 Ici, la couleur de chaque pixel (la « quantité » de rouge, de vert, de bleu) est définie par une fonction de ses coordonnées *x* et *y*.
 
 ```python
-**from** PIL **import** Image
+from PIL import Image
 
-image **=** Image**.**new**(**"RGB"**,** **(256,** **256))
-for** x **in** range**(256):
-	for** y **in** range**(256):**
-		rouge **=** **(**x **+** y**)** **%** **256**
-		vert **=** **(**y ***** x**)** **%** **256**
-		bleu **=** round**(**x **/** **(**y **+** **1))** **%** **256**
-		image**.**putpixel**((**x**,** y**),** **(**rouge**,** vert**,** bleu**))**
+image = Image.new("RGB", (256, 256))
+for x in range(256):
+	for y in range(256):
+		rouge = (x + y) % 256
+		vert = (y * x) % 256
+		bleu = round(x / (y + 1)) % 256
+		image.putpixel((x, y), (rouge, vert, bleu))
 		
-image**.**save**(**"image.png"**)**
+image.save("image.png")
 ```
 
 ![_primary](https://snt.ababsurdo.fr/la-photographie-numerique/pixelart/fonction.png)
@@ -214,34 +214,34 @@ On peut aussi définir des coordonnées ou couleurs au hasard. Par exemple, **r
 Le programme suivant produit une « marche aléatoire » : un pixel se déplace aléatoirement sur le dessin, en laissant une trace colorée.
 
 ```python
-**from** PIL **import** Image
-**import** random
+from PIL import Image
+import random
 
-image **=** Image**.**new**(**"RGB"**,** **(256,** **256))**
-x **=** round**(255** **/** **2)**
-y **=** round**(255** **/** **2)**
-rouge **=** round**(255** **/** **2)**
-vert **=** round**(255** **/** **2)**
-bleu **=** round**(255** **/** **2)
-for** i **in** range**(1000):**
-	direction **=** random**.**choice**([**"gauche"**,** "droite"**,** "haut"**,** "bas"**])
-	if** direction **==** "gauche"**:**
-		x **=** **(**x **-** **1)** **%** **256
-	elif** direction **==** "droite"**:**
-		x **=** **(**x **+** **1)** **%** **256
-	elif** direction **==** "haut"**:**
-		y **=** **(**y **-** **1)** **%** **256
-	else:**
-		y **=** **(**y **+** **1)** **%** **256**
-		rouge **=** **(**rouge **+** **2)** **%** **256**
-		vert **=** **(**vert **-** **1)** **%** **256
-		if** random**.**randint**(0,** **1)** **==** **0:**
-			bleu **=** **(**bleu **+** **3)** **%** **256
-		else:**
-			bleu **=** **(**bleu **-** **3)** **%** **256**
-		image**.**putpixel**((**x**,** y**),** **(**rouge**,** vert**,** bleu**))**
+image = Image.new("RGB", (256, 256))
+x = round(255 / 2)
+y = round(255 / 2)
+rouge = round(255 / 2)
+vert = round(255 / 2)
+bleu = round(255 / 2)
+for i in range(1000):
+	direction = random.choice(["gauche", "droite", "haut", "bas"])
+	if direction == "gauche":
+		x = (x - 1) % 256
+	elif direction == "droite":
+		x = (x + 1) % 256
+	elif direction == "haut":
+		y = (y - 1) % 256
+	else:
+		y = (y + 1) % 256
+		rouge = (rouge + 2) % 256
+		vert = (vert - 1) % 256
+		if random.randint(0, 1) == 0:
+			bleu = (bleu + 3) % 256
+		else:
+			bleu = (bleu - 3) % 256
+		image.putpixel((x, y), (rouge, vert, bleu))
 
-image**.**save**(**"image.png"**)**
+image.save("image.png")
 ```
 
 ![_primary](https://snt.ababsurdo.fr/la-photographie-numerique/pixelart/random.png)
@@ -250,4 +250,3 @@ image**.**save**(**"image.png"**)**
 
 2. Rendez le fichier `.py` sur Moodle.
 
-[https://snt.ababsurdo.fr/tutoriels/installer-un-paquet-python-avec-thonny/](https://snt.ababsurdo.fr/tutoriels/installer-un-paquet-python-avec-thonny/)
