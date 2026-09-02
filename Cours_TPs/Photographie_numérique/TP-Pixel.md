@@ -1,13 +1,13 @@
 # TP Pixel
 
-<aside>
+<aside markdown="1">
 💡
 
 Vous pouvez faire ce travail à plusieurs, mais prenez garde à bien comprendre toutes les réponses (même celles apportées par vos camarade) et à ce que votre compte-rendu soit personnel car le rendu du TP est individuel.
 
 *Lorsqu'une question est marquée d'un symbole 🔎, la réponse peut-être cherchée sur Internet.*
 
-</aside markdown="1">
+</aside>
 
 ## **Pixels, Définition, Résolution**
 
