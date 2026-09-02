@@ -91,9 +91,9 @@ imageGris.show( )
 ### Rappel :
 
 <aside markdown="1">
-💡
 
-### Variable
+
+### 💡 Variable
 
 En python nous pouvons stocker des valeurs dans ce qu’on appelle des variables.
 Dans le TP précédent nous avons utilisée la variable `bleue`.
@@ -132,9 +132,9 @@ Pendant ce TP, nous utiliserons deux variables images différentes :
 1. Remplacer les “…” de la ligne 8 du programme par une variable image, qui utilisera l’instruction `.size` afin de stocker dans les variables `largeur` et `longueur` les valeurs correspondantes aux deux dimensions de l'image initiale du perroquet.
 
 <aside markdown="1">
-💡
 
-### Instruction size
+
+### 💡 Instruction size
 
 Pour récupérer les deux valeurs des dimensions de l'image photo, on utilise l'instruction :
 
@@ -161,9 +161,9 @@ Pour la variable `imageExemple`, cela donne une variable `tailleX` égale à 10 
 Donc les variables `largeur` et `hauteur` de l’image d’origine.
 
 <aside markdown="1">
-💡
 
-### Nouvelle image
+
+### 💡 Nouvelle image
 
 On a déjà vu dans le TP précédent comment créer une nouvelle image de largeur L et de hauteur H :
 
@@ -181,9 +181,9 @@ Ici, `L` et `H` doivent être remplacés par des variables qui s’adapteront au
     
 
 <aside markdown="1">
-💡
 
-### Récupérer les pixels
+
+### 💡 Récupérer les pixels
 
 Pour lire les informations (r, v, b) du pixel de coordonnées (x, y) de la variable d’une image nommée `photo`, on utilise l’instruction :
 
@@ -198,9 +198,9 @@ S’ils ont souhaite récupérer les valeurs des trois composantes d’un pixel 
 1. Compléter la ligne 22 du programme en utilisant la formule de niveau de gris afin de stocker dans la variable nommée `g` le niveau de gris calculé.
 
 <aside markdown="1">
-💡
 
-### Formule niveau de gris
+
+### 💡 Formule niveau de gris
 
 Pour chaque pixel, on calcule d’abord la valeur en niveau de gris en fonction de ses trois composantes par la formule suivante :
 
@@ -223,9 +223,9 @@ L'instruction `int` permet de ne garder que la partie entière (c'est-à-dire 
     
 
 <aside markdown="1">
-💡
 
-### Instruction putpixel
+
+### 💡 Instruction putpixel
 
 Pour affecter les informations (r, v, b) au pixel de coordonnées (x, y) de la variable image `photo`, on utilise l’instruction :
 
