@@ -157,7 +157,7 @@ Pour la variable `imageExemple`, cela donne une variable `tailleX` égale à 10 
 
 </aside>
 
-1. Compléter les “…” de la ligne 11 du programme afin de créer une nouvelle image nommée `imageSource`, dont les dimensions seront les mêmes que notre image de couleur initial.
+2. Compléter les “…” de la ligne 11 du programme afin de créer une nouvelle image nommée `imageSource`, dont les dimensions seront les mêmes que notre image de couleur initial.
 Donc les variables `largeur` et `hauteur` de l’image d’origine.
 
 <aside markdown="1">
@@ -175,7 +175,7 @@ Ici, `L` et `H` doivent être remplacés par des variables qui s’adapteront au
 
 </aside>
 
-1. Compléter la ligne 19 du programme avec getpixel(), afin de stocker dans les variables nommées `r`, `v` et `b` les composantes RVB du pixel de coordonnées (x,y) de l'image du perroquet initiale.
+3. Compléter la ligne 19 du programme avec getpixel(), afin de stocker dans les variables nommées `r`, `v` et `b` les composantes RVB du pixel de coordonnées (x,y) de l'image du perroquet initiale.
     
     Penser à utiliser la variable image déjà créée dans ce programme qui stocke l'image initiale du perroquet.
     
@@ -195,7 +195,7 @@ S’ils ont souhaite récupérer les valeurs des trois composantes d’un pixel 
 
 </aside>
 
-1. Compléter la ligne 22 du programme en utilisant la formule de niveau de gris afin de stocker dans la variable nommée `g` le niveau de gris calculé.
+4. Compléter la ligne 22 du programme en utilisant la formule de niveau de gris afin de stocker dans la variable nommée `g` le niveau de gris calculé.
 
 <aside markdown="1">
 
@@ -217,7 +217,7 @@ L'instruction `int` permet de ne garder que la partie entière (c'est-à-dire 
 
 </aside>
 
-1. Compléter la ligne 25 du programme en utilisant l’instruction `putpixel` afin de mettre le pixel de coordonnées (x,y) de l'image nouvellement construite au niveau de gris calculé.
+5. Compléter la ligne 25 du programme en utilisant l’instruction `putpixel` afin de mettre le pixel de coordonnées (x,y) de l'image nouvellement construite au niveau de gris calculé.
     
     Penser à utiliser une variable déjà créée dans ce programme.
     
@@ -239,8 +239,8 @@ On remplace ensuite, pour ce pixel, la couleur (r, v, b) par la couleur nouvelle
 
 ## Vérification
 
-1. Vérifiez que l’image obtenue est similaire à celle attendue.
-2. Si tout fonctionne, déplacez le fichier **.png** contenant votre image *pixel art* du dernier TP dans le dossier **Noir&Blanc** (exécuter le code Python du TP *Pixel art* recréera l’image si vous ne l’avez plus).
+6. Vérifiez que l’image obtenue est similaire à celle attendue.
+7. Si tout fonctionne, déplacez le fichier **.png** contenant votre image *pixel art* du dernier TP dans le dossier **Noir&Blanc** (exécuter le code Python du TP *Pixel art* recréera l’image si vous ne l’avez plus).
     
     Modifiez ensuite l’instruction suivante de votre code afin de récupérer le bon nom pour votre fichier image.
     Et ainsi transformer votre *pixel art* couleur en nuances de gris.
@@ -252,8 +252,12 @@ imageSource = Image.open( "image.png" )
 
 ## Rendu
 
-1. Rendre votre fichier Python dans Moodle.
+8. Rendre votre fichier Python dans Moodle.
 Pas de pdf avec le code à l’intérieur, ni l’image résultat, mais bien le code que vous avez enregistré puis modifié à partir de l’étape : **2. Création du programme**
+
+
+
+
 
 ## **V. Le négatif d'une image**
 
@@ -306,19 +310,20 @@ imageBut.show( )
 
 ```
 
-1. Reprendre et refaire les questions 4.1, 4.2 et 4.3 (même réponses) pour ce code.
+2. Reprendre et refaire les questions 4.1, 4.2 et 4.3 (même réponses) pour ce code.
 
-1. Compléter la ligne 21 du programme en utilisant :
+3. Compléter la ligne 21 du programme en utilisant :
     - La formule donnant le négatif d'un pixel
-    - L'instruction `putpixel`  afin de mettre le pixel de coordonnées (x,y) de l'image nouvellement construite à niveau de la couleur RVB correspondant au négatif.
-    -     
+    - L'instruction `putpixel`  afin de mettre le pixel de coordonnées (x,y) de l'image nouvellement construite à niveau de la couleur RVB correspondant au négatif.  
     
+	<aside markdown="1">
     💡Le négatif d'une image est une image dont les couleurs sont inversées par rapport à l'originale c'est-à-dire :
    
-	  - quand l'image originale est en RVB alors si $(r,v,b)$ sont les trois composantes d'un pixel de l'image d'origine alors les composantes du pixel négatif correspondant sont $(255−r, 255−v, 255−b)$.
+	  - quand l'image originale est en RVB alors si $$(r,v,b)$$ sont les trois composantes d'un pixel de l'image d'origine alors les composantes du pixel négatif correspondant sont $$(255−r, 255−v, 255−b)$$.
     
-3. Vérifier que l'image obtenue est la suivante :
+	</aside>
+4. Vérifier que l'image obtenue est la suivante :
 
 ![image.png](TP%20Niveau%20de%20gris/image%203.png)
 
-1. Rendre votre fichier Python dans Moodle.
+5. Rendre votre fichier Python dans Moodle.
