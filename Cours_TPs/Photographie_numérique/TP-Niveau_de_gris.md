@@ -17,7 +17,7 @@ for y in range (largeur) :
 Pour chaque pixel, on calcule d’abord la valeur en niveau de gris en fonction de ses trois composantes par la formule suivante :
 
 <aside markdown="1">
-$g=0,11×r+0,83×v+0,06×b$
+$$g=0,11×r+0,83×v+0,06×b$$
 
 </aside>
 
@@ -207,7 +207,7 @@ S’ils ont souhaite récupérer les valeurs des trois composantes d’un pixel 
 
 Pour chaque pixel, on calcule d’abord la valeur en niveau de gris en fonction de ses trois composantes par la formule suivante :
 
-> $g = 0,11 × r + 0,83 × v + 0,06 × b$
+> $$g = 0,11 × r + 0,83 × v + 0,06 × b$$
 > 
 
 En le simplifiant en python cela donne :
