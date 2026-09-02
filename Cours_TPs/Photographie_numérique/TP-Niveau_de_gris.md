@@ -16,7 +16,10 @@ for y in range (largeur) :
 
 Pour chaque pixel, on calcule d’abord la valeur en niveau de gris en fonction de ses trois composantes par la formule suivante :
 
+<aside markdown="1">
 $g=0,11×r+0,83×v+0,06×b$
+
+</aside>
 
 On remplace ensuite, pour ce pixel, la couleur (r, v, b) par la couleur (g, g, g).
 
