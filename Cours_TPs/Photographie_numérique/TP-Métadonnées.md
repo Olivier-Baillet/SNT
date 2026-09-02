@@ -1,3 +1,6 @@
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 # TP : Métadonnées
 
 Un fichier (.jpg, .png, etc.) d'une photographie numérique comprend non seulement les informations sur les couleurs, mais aussi des *méta-données*, c'est-à-dire des informations *à propos* de l'image.
@@ -15,7 +18,7 @@ Un fichier (.jpg, .png, etc.) d'une photographie numérique comprend non seuleme
     - la date à laquelle a été prise cette photo ;
     - la marque de l'appareil photo ;
     - si le flash a été utilisé.
-4. On se demande où a été prise cette photo. Dans les métadonnées, on trouve les coordonnées GPS, avec comme latitude $48°-39'-48.77''$ et comme longitude $6°-9'-25.77''$. On cherche alors sur [Géoportail](https://www.geoportail.gouv.fr/) ces coordonnées :
+4. On se demande où a été prise cette photo. Dans les métadonnées, on trouve les coordonnées GPS, avec comme latitude $$48°-39'-48.77''$$ et comme longitude $$6°-9'-25.77''$$. On cherche alors sur [Géoportail](https://www.geoportail.gouv.fr/) ces coordonnées :
     - Cliquer sur OK pour afficher une carte.
     - Cliquer sur le ➕ pour effectuer une recherche.
     - Choisissez *Coordonnées*, puis *degrés sexagésimaux*.
