@@ -18,7 +18,7 @@ Un fichier (.jpg, .png, etc.) d'une photographie numérique comprend non seuleme
     - la date à laquelle a été prise cette photo ;
     - la marque de l'appareil photo ;
     - si le flash a été utilisé.
-4. On se demande où a été prise cette photo. Dans les métadonnées, on trouve les coordonnées GPS, avec comme latitude  $$3°23'49.754''$$ et comme longitude $$50°19'21.055''$$. On cherche alors sur [Géoportail](https://www.geoportail.gouv.fr/) ces coordonnées :
+4. On se demande où a été prise cette photo. Dans les métadonnées, on trouve les coordonnées GPS, avec comme latitude $$50°19'21.055''$$ et comme longitude $$3°23'49.754''$$. On cherche alors sur [Géoportail](https://www.geoportail.gouv.fr/) ces coordonnées :
     - Cliquer sur OK pour afficher une carte.
     - Cliquer sur le ➕ pour effectuer une recherche.
     - Choisissez *Coordonnées*, puis *degrés sexagésimaux*.
