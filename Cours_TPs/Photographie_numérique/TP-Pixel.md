@@ -32,13 +32,13 @@ est composée de **pixels** : de petites cases colorées formant un tableau.
 1. 🔎 Quelle est l'étymologie du mot ***pixel*** ?
 2. 🔎 Quelles sont les résolution de ces écrans ***HD*, *Full HD*, et *4K* ?**
 
-3. Quelle est la différence entre la définition d'un écran (nombre de pixels en largeur × nombre de pixels en hauteur) et sa densité de pixels (nombre de pixels par pouce) ?
+3. Quelle est la différence entre la définition d'un écran (nombre de pixels en largeur × nombre de pixels en hauteur) et sa densité de pixels (nombre de pixels par pouce) ?  
        Indices : si deux écrans ont exactement le même nombre de pixels, mais que l'un est beaucoup plus grand que l'autre, les pixels sont-ils aussi serrés sur les deux écrans ?
    
-4. *Écran de téléphone portable.*
-Sur la fiche technique du téléphone portable [Fairphone 3](https://shop.fairphone.com/fr/) est écrit :
- *« 2160 x 1080 resolution ; 427 ppp pixel densité. »*
-Le Fairphone 3 possède une définition de 2160 × 1080 pixels et son écran mesure environ 13,2 cm de long.
+4. *Écran de téléphone portable.*  
+Sur la fiche technique du téléphone portable [Fairphone 3](https://shop.fairphone.com/fr/) est écrit :  
+ *« 2160 x 1080 resolution ; 427 ppp pixel densité. »*  
+Le Fairphone 3 possède une définition de 2160 × 1080 pixels et son écran mesure environ 13,2 cm de long.  
 
 	a. Que signifie l'unité « ppp » ?
 
@@ -58,14 +58,12 @@ Le Fairphone 3 possède une définition de 2160 × 1080 pixels et son écran mes
 
 6. *Écran de télévision 4K.* Une télévision *4K* a les caractéristiques techniques suivantes :
     
-    > Taille de l'écran 55" <br>
-    >Résolution : Longueur 3840 Pixels
-    > 
-    >Résolution : Largeur 2160 Pixels
-    > 
-    >Longueur du produit 123,06 cm <br>
-    >Largeur du produit 79,26 cm <br>
-    >Hauteur du produit 23,75 cm <br>
+    > Taille de l'écran 55"  
+    >Résolution : Longueur 3840 Pixels  
+    >Résolution : Largeur 2160 Pixels  
+    >Longueur du produit 123,06 cm  
+    >Largeur du produit 79,26 cm   
+    >Hauteur du produit 23,75 cm   
     >
     
 	a. Convertir la largeur de la télévision en pouces.//
