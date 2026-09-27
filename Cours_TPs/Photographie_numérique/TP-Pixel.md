@@ -52,7 +52,7 @@ Le Fairphone 3 possède une définition de 2160 × 1080 pixels et son écran mes
    >- convertir 13,2 cm en pouces ;
    >- prendre la dimension correspondant à la longueur : 2160 pixels ;
    >- calculer :
-   >    $$ densite =  \frac{longueur_en_pouces}{nombre_de_pixels}  $$
+   >    $$ densite =  \frac{longueur-en-pouces}{nombre-de-pixels}  $$
    >​
 
 
