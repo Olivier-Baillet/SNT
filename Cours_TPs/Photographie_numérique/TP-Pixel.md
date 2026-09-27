@@ -32,35 +32,46 @@ est composée de **pixels** : de petites cases colorées formant un tableau.
 1. 🔎 Quelle est l'étymologie du mot ***pixel*** ?
 2. 🔎 Quelles sont les résolution de ces écrans ***HD*, *Full HD*, et *4K* ?**
 
-4. Quelle est la différence entre la définition d'un écran (nombre de pixels en largeur × nombre de pixels en hauteur) et sa densité de pixels (nombre de pixels par pouce) ?
+3. Quelle est la différence entre la définition d'un écran (nombre de pixels en largeur × nombre de pixels en hauteur) et sa densité de pixels (nombre de pixels par pouce) ?
        Indices : si deux écrans ont exactement le même nombre de pixels, mais que l'un est beaucoup plus grand que l'autre, les pixels sont-ils aussi serrés sur les deux écrans ?
    
-5. *Écran de téléphone portable.*
+4. *Écran de téléphone portable.*
 Sur la fiche technique du téléphone portable [Fairphone 3](https://shop.fairphone.com/fr/) est écrit :
  *« 2160 x 1080 resolution ; 427 ppp pixel densité. »*
 Le Fairphone 3 possède une définition de 2160 × 1080 pixels et son écran mesure environ 13,2 cm de long.
 
-4. Calculer le nombre de pixels présents sur une longueur d'un pouce.
+	a. Que signifie l'unité « ppp » ?
 
-   Ils doivent alors faire :
-   - convertir 13,2 cm en pouces ;
-   - prendre la dimension correspondant à la longueur : 2160 pixels ;
-   - calculer :
-        $$ densite =  \frac{longueur en pouces}{nombre de pixels}  $$
-	​
+	b. Quelle est la densité de pixels de cet écran ?
+	
+	c. Expliquez avec vos mots ce que signifie « 427 ppp ».
+
+5. Calculer le nombre de pixels présents sur une longueur d'un pouce.
+
+   >Indice :
+   >- convertir 13,2 cm en pouces ;
+   >- prendre la dimension correspondant à la longueur : 2160 pixels ;
+   >- calculer :
+   >    $$ densite =  \frac{longueur en pouces}{nombre de pixels}  $$
+   >​
 
 
 6. *Écran de télévision 4K.* Une télévision *4K* a les caractéristiques techniques suivantes :
     
     > Taille de l'écran 55"
-    Résolution : Longueur 3840 Pixels
-    Résolution : Largeur 2160 Pixels
-    Longueur du produit 123,06 cm
-    Largeur du produit 79,26 cm
-    Hauteur du produit 23,75 cm
-    > 
-    1. 🔎 Convertir la largeur de la télé en pouces (arrondir au dixième).
-    2. La résolution est-elle plus grande ou plus petite que celle du téléphone portable étudié à la question précédente ? Comment expliquer cette différence ?
+    >Résolution : Longueur 3840 Pixels
+    >Résolution : Largeur 2160 Pixels
+    >Longueur du produit 123,06 cm
+    >Largeur du produit 79,26 cm
+    >Hauteur du produit 23,75 cm
+    >
+    
+	a. Convertir la largeur de la télévision en pouces.
+	Indice : 1 pouce = 2,54 cm.
+	
+	b. La télévision possède-t-elle plus ou moins de pixels que le téléphone du Fairphone 3 ? Justifiez votre réponse par un calcul.
+	
+	c. Le téléphone possède pourtant une densité de 427 ppp. Comment expliquer qu'un écran de télévision puisse avoir plus de pixels au total, mais une densité de pixels plus faible ?
 
 <aside markdown="1">
 💡
