@@ -58,15 +58,15 @@ Le Fairphone 3 possède une définition de 2160 × 1080 pixels et son écran mes
 
 6. *Écran de télévision 4K.* Une télévision *4K* a les caractéristiques techniques suivantes :
     
-    > Taille de l'écran 55"
-    >Résolution : Longueur 3840 Pixels
-    >Résolution : Largeur 2160 Pixels
-    >Longueur du produit 123,06 cm
-    >Largeur du produit 79,26 cm
-    >Hauteur du produit 23,75 cm
+    > Taille de l'écran 55" //
+    >Résolution : Longueur 3840 Pixels //
+    >Résolution : Largeur 2160 Pixels //
+    >Longueur du produit 123,06 cm //
+    >Largeur du produit 79,26 cm //
+    >Hauteur du produit 23,75 cm //
     >
     
-	a. Convertir la largeur de la télévision en pouces.
+	a. Convertir la largeur de la télévision en pouces.//
 	Indice : 1 pouce = 2,54 cm.
 	
 	b. La télévision possède-t-elle plus ou moins de pixels que le téléphone du Fairphone 3 ? Justifiez votre réponse par un calcul.
