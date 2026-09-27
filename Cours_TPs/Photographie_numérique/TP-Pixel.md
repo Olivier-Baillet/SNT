@@ -12,7 +12,7 @@ Vous pouvez faire ce travail à plusieurs, mais prenez garde à bien comprendre 
 
 </aside>
 
-## **Pixels, Définition, Résolution**
+## **I) Pixels, Définition, Résolution**
 
 Une photographie numérique (au format jpg, png, tiff, etc.) 
 est composée de **pixels** : de petites cases colorées formant un tableau.
@@ -66,7 +66,7 @@ Le Fairphone 3 possède une définition de 2160 × 1080 pixels et son écran mes
     >Hauteur du produit 23,75 cm   
     >
     
-	a. Convertir la largeur de la télévision en pouces.//
+	a. Convertir la largeur de la télévision en pouces.  
 	Indice : 1 pouce = 2,54 cm.
 	
 	b. La télévision possède-t-elle plus ou moins de pixels que le téléphone du Fairphone 3 ? Justifiez votre réponse par un calcul.
@@ -81,7 +81,9 @@ Le Fairphone 3 possède une définition de 2160 × 1080 pixels et son écran mes
 - Je sais passer de la résolution à la définition, et inversement (exemple : *Un écran de 7cm a une résolution de 30ppp ; quelle est sa définition ?*).
 </aside>
 
-## **Couleurs**
+---
+
+## **II) Couleurs**
 
 Dans cette partie nous nous intéresserons à la manière dont sont codées les couleurs.
 
@@ -168,7 +170,7 @@ Nous voyons sur la capture d'écran que la couleur rose pâle correspond aux nom
 
 ---
 
-## **Traitement d'image**
+## **III) Traitement d'image**
 
 En manipulant les pixels d'une image, il est possible de la modifier, à plusieurs fins.
 
