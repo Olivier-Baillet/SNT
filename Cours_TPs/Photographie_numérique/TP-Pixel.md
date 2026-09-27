@@ -1,3 +1,6 @@
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 # TP Pixel
 
 <aside markdown="1">
@@ -28,12 +31,26 @@ est composée de **pixels** : de petites cases colorées formant un tableau.
 
 1. 🔎 Quelle est l'étymologie du mot ***pixel*** ?
 2. 🔎 Quelles sont les résolution de ces écrans ***HD*, *Full HD*, et *4K* ?**
-3. Quelle est la différence entre la résolution d’un écran (nombre total de pixels) et la densité de pixels (nombre de pixels par pouce) ?
-4. *Écran de téléphone portable.*
+
+4. Quelle est la différence entre la définition d'un écran (nombre de pixels en largeur × nombre de pixels en hauteur) et sa densité de pixels (nombre de pixels par pouce) ?
+       Indices : si deux écrans ont exactement le même nombre de pixels, mais que l'un est beaucoup plus grand que l'autre, les pixels sont-ils aussi serrés sur les deux écrans ?
+   
+5. *Écran de téléphone portable.*
 Sur la fiche technique du téléphone portable [Fairphone 3](https://shop.fairphone.com/fr/) est écrit :
- *« 2160 x 1080 resolution ; 427 ppp pixel densité. »*
-Quelle est la résolution en densité (ppp) de cet écran ?
-5. *Écran de télévision 4K.* Une télévision *4K* a les caractéristiques techniques suivantes :
+ *« 2160 x 1080 resolution ; 427 ppp pixel densité. »*
+Le Fairphone 3 possède une définition de 2160 × 1080 pixels et son écran mesure environ 13,2 cm de long.
+
+4. Calculer le nombre de pixels présents sur une longueur d'un pouce.
+
+   Ils doivent alors faire :
+   - convertir 13,2 cm en pouces ;
+   - prendre la dimension correspondant à la longueur : 2160 pixels ;
+   - calculer :
+        $$ densite =  \frac{longueur en pouces}{nombre de pixels}  $$
+	​
+
+
+6. *Écran de télévision 4K.* Une télévision *4K* a les caractéristiques techniques suivantes :
     
     > Taille de l'écran 55"
     Résolution : Longueur 3840 Pixels
@@ -112,22 +129,22 @@ Nous voyons sur la capture d'écran que la couleur rose pâle correspond aux nom
 
 ### **Questions**
 
-1. 🔎 Que signifient les initiales RGB ?
-2. Quelles sont les valeurs minimales et maximales que peuvent prendre les quantité de rouge, vert, bleu ?
+3. 🔎 Que signifient les initiales RGB ?
+4. Quelles sont les valeurs minimales et maximales que peuvent prendre les quantité de rouge, vert, bleu ?
     - Minimale :
     - Maximale :
-3. En utilisant la palette (de Gimp ou du site web) utilisée à la question précédente, donner le code des couleurs suivantes (on notera `(x, y, z)` la couleur composée de `x` rouge, `y` vert et `z` bleu) :
+5. En utilisant la palette (de Gimp ou du site web) utilisée à la question précédente, donner le code des couleurs suivantes (on notera `(x, y, z)` la couleur composée de `x` rouge, `y` vert et `z` bleu) :
     - Rouge : `(255, 0, 0)`
     - Vert : `(…, …, …)`
     - Bleu : `(…, …, …)`
     - Noir : `(…, …, …)`
     - Blanc : `(…, …, …)`
-4. En utilisant le même outil, avec la même notation, donner les couleurs (en français) correspondant aux codes suivants (un seul mot par couleur) :
+6. En utilisant le même outil, avec la même notation, donner les couleurs (en français) correspondant aux codes suivants (un seul mot par couleur) :
     - (0, 255, 255)
     - (255, 0, 255)
     - (255, 255, 0)
     - (255, 128, 0)
-5. Combien de couleurs différentes est-il possible de coder en utilisant cette méthode ?
+7. Combien de couleurs différentes est-il possible de coder en utilisant cette méthode ?
 
 <aside markdown="1">
 💡
