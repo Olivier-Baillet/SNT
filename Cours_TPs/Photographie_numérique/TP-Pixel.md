@@ -143,21 +143,21 @@ Nous voyons sur la capture d'écran que la couleur rose pâle correspond aux nom
 ### **Questions**
 
 3. 🔎 Que signifient les initiales RGB ?
-4. Quelles sont les valeurs minimales et maximales que peuvent prendre les quantité de rouge, vert, bleu ?
+1. Quelles sont les valeurs minimales et maximales que peuvent prendre les quantité de rouge, vert, bleu ?
     - Minimale :
     - Maximale :
-5. En utilisant la palette (de Gimp ou du site web) utilisée à la question précédente, donner le code des couleurs suivantes (on notera `(x, y, z)` la couleur composée de `x` rouge, `y` vert et `z` bleu) :
+1. En utilisant la palette (de Gimp ou du site web) utilisée à la question précédente, donner le code des couleurs suivantes (on notera `(x, y, z)` la couleur composée de `x` rouge, `y` vert et `z` bleu) :
     - Rouge : `(255, 0, 0)`
     - Vert : `(…, …, …)`
     - Bleu : `(…, …, …)`
     - Noir : `(…, …, …)`
     - Blanc : `(…, …, …)`
-6. En utilisant le même outil, avec la même notation, donner les couleurs (en français) correspondant aux codes suivants (un seul mot par couleur) :
+1. En utilisant le même outil, avec la même notation, donner les couleurs (en français) correspondant aux codes suivants (un seul mot par couleur) :
     - (0, 255, 255)
     - (255, 0, 255)
     - (255, 255, 0)
     - (255, 128, 0)
-7. Combien de couleurs différentes est-il possible de coder en utilisant cette méthode ?
+1. Combien de couleurs différentes est-il possible de coder en utilisant cette méthode ?
 
 <aside markdown="1">
 💡
