@@ -27,7 +27,7 @@ est composée de **pixels** : de petites cases colorées formant un tableau.
 
 ![_primary](https://snt.ababsurdo.fr/la-photographie-numerique/pixels/cell_phone_screen_pixels.jpg)
 
-**Résolution d’un écran** : La *résolution* d'un écran (exprimée en *dpi* (*dots per inch*), *ppi* (*pixels per inch*), ou *ppp* (*pixels par pource*)) est le nombre de pixels disponibles sur une longueur d'un pouce (environ 2,54 cm). Plus ce nombre est élevé, plus la taille des pixels est petite, et plus l'image sera précise.
+**Résolution d’un écran** : La *résolution* d'un écran (exprimée en *dpi* (*dots per inch*), *ppi* (*pixels per inch*), ou *ppp* (*pixels par pouce*)) est le nombre de pixels disponibles sur une longueur d'un pouce (environ 2,54 cm). Plus ce nombre est élevé, plus la taille des pixels est petite, et plus l'image sera précise.
 
 1. 🔎 Quelle est l'étymologie du mot ***pixel*** ?
 2. 🔎 Quelles sont les résolution de ces écrans ***HD*, *Full HD*, et *4K* ?**
