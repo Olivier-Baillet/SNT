@@ -244,7 +244,7 @@ En floutant numériquement la photo de gauche, la photo de droite donne l'impres
 - Je sais donner et décrire quelques algorithmes de manipulation d'image.
 </aside>
 
-# Bonus :
+# Annexe :
 
 ## **Capteurs et Photosites**
 
