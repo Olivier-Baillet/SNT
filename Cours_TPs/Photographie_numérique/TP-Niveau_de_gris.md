@@ -206,8 +206,7 @@ Ici, `L` et `H` doivent être remplacés par des variables qui s’adapteront au
 </div>
 
 3) Compléter la ligne 19 du programme avec getpixel(), afin de stocker dans les variables nommées `r`, `v` et `b` les composantes RVB du pixel de coordonnées (x,y) de l'image du perroquet initiale.
-    
-    Penser à utiliser la variable image déjà créée dans ce programme qui stocke l'image initiale du perroquet.
+> Penser à utiliser la variable image déjà créée dans ce programme qui stocke l'image initiale du perroquet.
     
 
 <div class="rappel"  markdown="1">
@@ -248,8 +247,8 @@ L'instruction `int` permet de ne garder que la partie entière (c'est-à-dire 
 </div>
 
 5) Compléter la ligne 25 du programme en utilisant l’instruction `putpixel` afin de mettre le pixel de coordonnées (x,y) de l'image nouvellement construite au niveau de gris calculé.
-    
-    Penser à utiliser une variable déjà créée dans ce programme.
+
+> Penser à utiliser une variable déjà créée dans ce programme.
     
 
 <div class="rappel"  markdown="1">
@@ -271,9 +270,9 @@ On remplace ensuite, pour ce pixel, la couleur (r, v, b) par la couleur nouvelle
 
 6) Vérifiez que l’image obtenue est similaire à celle attendue.
 7) Si tout fonctionne, déplacez le fichier **.png** contenant votre image *pixel art* du dernier TP dans le dossier **Noir&Blanc** (exécuter le code Python du TP *Pixel art* recréera l’image si vous ne l’avez plus).
-    
-    Modifiez ensuite l’instruction suivante de votre code afin de récupérer le bon nom pour votre fichier image.
-    Et ainsi transformer votre *pixel art* couleur en nuances de gris.
+
+> Modifiez ensuite l’instruction suivante de votre code afin de récupérer le bon nom pour votre fichier image.
+> Et ainsi transformer votre *pixel art* couleur en nuances de gris.
     
 
 ```python
