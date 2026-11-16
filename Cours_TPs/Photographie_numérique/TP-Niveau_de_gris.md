@@ -161,7 +161,7 @@ Pendant ce TP, nous utiliserons deux variables images différentes :
 
 1) Remplacer les “…” de la ligne 8 du programme par une variable image, qui utilisera l’instruction `.size` afin de stocker dans les variables `largeur` et `longueur` les valeurs correspondantes aux deux dimensions de l'image initiale du perroquet.
 
-<div class="rappel">
+<div class="rappel"  markdown="1">
 
 
 ### 💡 Instruction size
@@ -190,7 +190,7 @@ Pour la variable `imageExemple`, cela donne une variable `tailleX` égale à 10 
 2) Compléter les “…” de la ligne 11 du programme afin de créer une nouvelle image nommée `imageSource`, dont les dimensions seront les mêmes que notre image de couleur initial.
 Donc les variables `largeur` et `hauteur` de l’image d’origine.
 
-<div class="rappel">
+<div class="rappel"  markdown="1">
 
 
 ### 💡 Nouvelle image
@@ -210,7 +210,7 @@ Ici, `L` et `H` doivent être remplacés par des variables qui s’adapteront au
     Penser à utiliser la variable image déjà créée dans ce programme qui stocke l'image initiale du perroquet.
     
 
-<div class="rappel">
+<div class="rappel"  markdown="1">
 
 
 ### 💡 Récupérer les pixels
@@ -227,7 +227,7 @@ S’ils ont souhaite récupérer les valeurs des trois composantes d’un pixel 
 
 4) Compléter la ligne 22 du programme en utilisant la formule de niveau de gris afin de stocker dans la variable nommée `g` le niveau de gris calculé.
 
-<div class="rappel">
+<div class="rappel"  markdown="1">
 
 
 ### 💡 Formule niveau de gris
@@ -252,7 +252,7 @@ L'instruction `int` permet de ne garder que la partie entière (c'est-à-dire 
     Penser à utiliser une variable déjà créée dans ce programme.
     
 
-<div class="rappel">
+<div class="rappel"  markdown="1">
 
 
 ### 💡 Instruction putpixel
@@ -346,7 +346,7 @@ imageBut.show( )
     - La formule donnant le négatif d'un pixel
     - L'instruction `putpixel`  afin de mettre le pixel de coordonnées (x,y) de l'image nouvellement construite à niveau de la couleur RVB correspondant au négatif.  
 
-<div class="rappel">
+<div class="rappel"  markdown="1">
 💡 Le négatif d'une image est une image dont les couleurs sont inversées par rapport à l'originale c'est-à-dire :
 
 - Quand l'image originale est en RVB alors si $$(r,v,b)$$ sont les trois composantes d'un pixel de l'image d'origine alors les composantes du pixel négatif correspondant sont $$(255-r, 255-v, 255-b)$$.
