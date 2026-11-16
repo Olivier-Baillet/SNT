@@ -340,9 +340,9 @@ imageBut.show( )
 
 ```
 
-2. Reprendre et refaire les questions 4.1, 4.2 et 4.3 (même réponses) pour ce code.
+2) Reprendre et refaire les questions 4.1, 4.2 et 4.3 (même réponses) pour ce code.
 
-3. Compléter la ligne 21 du programme en utilisant :
+3) Compléter la ligne 21 du programme en utilisant :
     - La formule donnant le négatif d'un pixel
     - L'instruction `putpixel`  afin de mettre le pixel de coordonnées (x,y) de l'image nouvellement construite à niveau de la couleur RVB correspondant au négatif.  
 
@@ -352,8 +352,8 @@ imageBut.show( )
 - Quand l'image originale est en RVB alors si $$(r,v,b)$$ sont les trois composantes d'un pixel de l'image d'origine alors les composantes du pixel négatif correspondant sont $$(255-r, 255-v, 255-b)$$.
 </div>
     
-4. Vérifier que l'image obtenue est la suivante :
+4) Vérifier que l'image obtenue est la suivante :
 
 ![image.png](TP%20Niveau%20de%20gris/image%203.png)
 
-5. Rendre votre fichier Python dans Moodle.
+5) Rendre votre fichier Python dans Moodle.
