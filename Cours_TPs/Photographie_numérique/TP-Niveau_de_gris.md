@@ -120,7 +120,7 @@ imageGris.show( )
 
 ### Rappel :
 
-<div class="rappel">
+<div class="rappel" markdown="1">
 
 
 ### 💡 Variable
