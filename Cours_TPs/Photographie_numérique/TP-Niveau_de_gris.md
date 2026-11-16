@@ -161,7 +161,7 @@ Pour la variable `imageExemple`, cela donne une variable `tailleX` égale à 10 
 
 </aside>
 
-2. Compléter les “…” de la ligne 11 du programme afin de créer une nouvelle image nommée `imageSource`, dont les dimensions seront les mêmes que notre image de couleur initial.
+1. Compléter les “…” de la ligne 11 du programme afin de créer une nouvelle image nommée `imageSource`, dont les dimensions seront les mêmes que notre image de couleur initial.
 Donc les variables `largeur` et `hauteur` de l’image d’origine.
 
 <aside markdown="1">
@@ -179,7 +179,7 @@ Ici, `L` et `H` doivent être remplacés par des variables qui s’adapteront au
 
 </aside>
 
-3. Compléter la ligne 19 du programme avec getpixel(), afin de stocker dans les variables nommées `r`, `v` et `b` les composantes RVB du pixel de coordonnées (x,y) de l'image du perroquet initiale.
+1. Compléter la ligne 19 du programme avec getpixel(), afin de stocker dans les variables nommées `r`, `v` et `b` les composantes RVB du pixel de coordonnées (x,y) de l'image du perroquet initiale.
     
     Penser à utiliser la variable image déjà créée dans ce programme qui stocke l'image initiale du perroquet.
     
