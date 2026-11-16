@@ -159,7 +159,7 @@ Pendant ce TP, nous utiliserons deux variables images différentes :
 - imageSource : Correspond à l’image du d’origine en couleur.
 - imageGris :  Correspond à la nouvelle image qu’on souhaite modifier.
 
-1. Remplacer les “…” de la ligne 8 du programme par une variable image, qui utilisera l’instruction `.size` afin de stocker dans les variables `largeur` et `longueur` les valeurs correspondantes aux deux dimensions de l'image initiale du perroquet.
+1) Remplacer les “…” de la ligne 8 du programme par une variable image, qui utilisera l’instruction `.size` afin de stocker dans les variables `largeur` et `longueur` les valeurs correspondantes aux deux dimensions de l'image initiale du perroquet.
 
 <div class="rappel">
 
@@ -187,7 +187,7 @@ Pour la variable `imageExemple`, cela donne une variable `tailleX` égale à 10 
 
 </div>
 
-2. Compléter les “…” de la ligne 11 du programme afin de créer une nouvelle image nommée `imageSource`, dont les dimensions seront les mêmes que notre image de couleur initial.
+2) Compléter les “…” de la ligne 11 du programme afin de créer une nouvelle image nommée `imageSource`, dont les dimensions seront les mêmes que notre image de couleur initial.
 Donc les variables `largeur` et `hauteur` de l’image d’origine.
 
 <div class="rappel">
@@ -205,7 +205,7 @@ Ici, `L` et `H` doivent être remplacés par des variables qui s’adapteront au
 
 </div>
 
-3. Compléter la ligne 19 du programme avec getpixel(), afin de stocker dans les variables nommées `r`, `v` et `b` les composantes RVB du pixel de coordonnées (x,y) de l'image du perroquet initiale.
+3) Compléter la ligne 19 du programme avec getpixel(), afin de stocker dans les variables nommées `r`, `v` et `b` les composantes RVB du pixel de coordonnées (x,y) de l'image du perroquet initiale.
     
     Penser à utiliser la variable image déjà créée dans ce programme qui stocke l'image initiale du perroquet.
     
@@ -225,7 +225,7 @@ S’ils ont souhaite récupérer les valeurs des trois composantes d’un pixel 
 
 </div>
 
-4. Compléter la ligne 22 du programme en utilisant la formule de niveau de gris afin de stocker dans la variable nommée `g` le niveau de gris calculé.
+4) Compléter la ligne 22 du programme en utilisant la formule de niveau de gris afin de stocker dans la variable nommée `g` le niveau de gris calculé.
 
 <div class="rappel">
 
@@ -247,7 +247,7 @@ L'instruction `int` permet de ne garder que la partie entière (c'est-à-dire 
 
 </div>
 
-5. Compléter la ligne 25 du programme en utilisant l’instruction `putpixel` afin de mettre le pixel de coordonnées (x,y) de l'image nouvellement construite au niveau de gris calculé.
+5) Compléter la ligne 25 du programme en utilisant l’instruction `putpixel` afin de mettre le pixel de coordonnées (x,y) de l'image nouvellement construite au niveau de gris calculé.
     
     Penser à utiliser une variable déjà créée dans ce programme.
     
@@ -269,8 +269,8 @@ On remplace ensuite, pour ce pixel, la couleur (r, v, b) par la couleur nouvelle
 
 ## Vérification
 
-6. Vérifiez que l’image obtenue est similaire à celle attendue.
-7. Si tout fonctionne, déplacez le fichier **.png** contenant votre image *pixel art* du dernier TP dans le dossier **Noir&Blanc** (exécuter le code Python du TP *Pixel art* recréera l’image si vous ne l’avez plus).
+6) Vérifiez que l’image obtenue est similaire à celle attendue.
+7) Si tout fonctionne, déplacez le fichier **.png** contenant votre image *pixel art* du dernier TP dans le dossier **Noir&Blanc** (exécuter le code Python du TP *Pixel art* recréera l’image si vous ne l’avez plus).
     
     Modifiez ensuite l’instruction suivante de votre code afin de récupérer le bon nom pour votre fichier image.
     Et ainsi transformer votre *pixel art* couleur en nuances de gris.
@@ -282,7 +282,7 @@ imageSource = Image.open( "image.png" )
 
 ## Rendu
 
-8. Rendre votre fichier Python dans Moodle.
+8) Rendre votre fichier Python dans Moodle.
 Pas de pdf avec le code à l’intérieur, ni l’image résultat, mais bien le code que vous avez enregistré puis modifié à partir de l’étape : **2. Création du programme**
 
 
@@ -307,7 +307,7 @@ Enregistre-le sous le nom :
 
 ### Code complet à copier
 
-1. Copie **le code ci-dessous** dans ton fichier **à partir de la première ligne !**
+1) Copie **le code ci-dessous** dans ton fichier **à partir de la première ligne !**
 
 ```python
 # Importation de la partie de la bibliothèque PIL utile pour le traitement de l'image :
