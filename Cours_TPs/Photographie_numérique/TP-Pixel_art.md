@@ -24,7 +24,7 @@ bleuFonce = (5, 20, 64)
 rouge = (255,0,0)
 blanc = (255,255,255)
 
-image = Image.new('RGB', (3, 2))
+image = Image.new('RGB', (3, 2), blanc)
 
 image.putpixel((0, 0), bleuFonce )
 image.putpixel((0, 1), bleuFonce )
