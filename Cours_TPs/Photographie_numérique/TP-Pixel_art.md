@@ -121,6 +121,24 @@ image = Image.new('RGB', (3, 2), couleur)
 
 Plutôt que de définir les pixels un à un, il est possible d'utiliser des boucles. Voici quelques exemples.
 
+
+### Une tête carré 
+
+```python
+from PIL import Image
+image = Image.new('RGB', (32, 32),(255,255,255))
+
+# Cela colorie toute la ligne de rang 3 et 29 en rouge*
+for x in range(3,30):
+	image.putpixel((x, 3), (255, 0, 0))
+	image.putpixel((x, 29), (255, 0, 0))
+
+# Cela colorie toute la ligne de rang 3 et 29 en jaune
+for y in range(3,30):
+	image.putpixel((3, y), (255, 255, 0))
+	image.putpixel((29, y), (255, 255, 0))
+```
+
 ### **Quelques bandes**
 
 ```python
