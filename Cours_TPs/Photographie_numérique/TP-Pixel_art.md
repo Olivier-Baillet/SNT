@@ -81,7 +81,7 @@ Le `.py` va transformer le fichier en script python.
 
 # II) Votre pixel art
 
-1. Reproduisez le quadrillage suivant sur une feuille, et faites un dessin (une lettre, un smiley, etc.) en coloriant certaines cases. Votre dessin devra être composé d'au moins trois couleurs (en plus du blanc).
+1. Reproduisez le quadrillage suivant sur une feuille (ou sur ce [site](https://www.piskelapp.com/p/create/sprite/), et faites un dessin (une lettre, un smiley, etc.) en coloriant certaines cases. Votre dessin devra être composé d'au moins trois couleurs (en plus du blanc).
 Ou vous pouvez vous inspirer des idées de ce site : [https://urls.fr/J21ae3](https://urls.fr/J21ae3) (ne viser pas trop grand !)
     
     ![_primary](https://snt.ababsurdo.fr/la-photographie-numerique/pixelart/matrice-vierge.png)
