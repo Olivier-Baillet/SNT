@@ -25,6 +25,7 @@ Dans chacun des cas, on répondra aux questions suivantes.
 4. Un ordinateur peut-il bloquer, espionner ou modifier les communications entre les autres ordinateurs ?
 
 <div class="methode" markdown="1">
+    
 A. **Réseau centré :** un ordinateur au centre est connecté par un câble à chacun des autres.
     
 B. **Réseau décentralisé :** un ordinateur est au centre, et trois ordinateurs sont connectés à lui. Deux autres ordinateurs sont connectés à chacun de ces trois ordinateurs.
