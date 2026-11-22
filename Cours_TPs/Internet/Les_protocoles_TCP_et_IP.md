@@ -1,11 +1,9 @@
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<link rel="stylesheet" href="../css/bordure.css">
+<link rel="stylesheet" href="../../css/bordure.css">
 
 
 # Les protocoles TCP et IP
-
-![internet](https://nsinfo.yo.fr/images/reseau_internet_terre.jpg)
 
 Les informations circulant sur internet sont découpées en **paquets** de bits. Chaque paquet reçoit en en-tête les adresses **IP** de son émetteur et de son destinataire. Cette dernière est utilisée par les **routeurs** répartis sur tout le réseau qui se transmettent les paquets jusqu’à leur destinataire. C'est ce **protocole IP** qui assure l'envoi des paquets aux bons endroits.
 
@@ -67,7 +65,6 @@ Le protocole **TCP** permet le transfert de données en respectant les règles
 
 Chaque paquet qui circule sur Internet à une en-tête avec des données supplémentaire ajouté par le **protocole IP** et le **protocole TCP**. Les paquets sont numérotés pour les rassembler dans l'ordre une fois transmis et vérifier leur arrivées à bon port.
 
-![](https://nsinfo.yo.fr/images/tcp_ip.PNG)
 
 <div class="rappel" markdown="1">
 💡
@@ -81,7 +78,6 @@ Ordinateur A veut envoyer une photo à Ordinateur B. Cette photo est découpée 
 | Emetteur : 107.191.220.153 | Envoie du N°1976 sur 2013 | 01110101010101010101010101 |
 | Destinataire : 76.106.002.153 | réceptions du N°1976 sur 2013 | 01110101010101010101010101 |
 
-![](https://nsinfo.yo.fr/images/TCP_IP_4.png)
 
 1. Décrire le schéma ci-dessus qui explique le protocole TCP.
     
