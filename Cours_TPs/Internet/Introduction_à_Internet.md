@@ -7,18 +7,20 @@
 
 Grâce à sa souplesse et à son universalité, **internet** est devenu le moyen de communication principal entre les hommes et avec les machines.
 
-> [https://youtu.be/s18KtOLpCg4](https://youtu.be/s18KtOLpCg4)
+> [Vidéo d'introduction](https://youtu.be/s18KtOLpCg4)
 > 
 
 Il est important de faire la distinction entre **Internet** et le **Web**.
 
 **Internet correspond à un réseau d'ordinateurs connectés entre eux et le Web correspond à un ensemble d'informations (site web) disponible sur Internet.**
 
-Le Web est une des parties d'Internet
+Le Web est une des parties d'Internet 
+
+[Différence internet Web](Images/infographie-difference-W_I.png)
 
 ## **Repères historiques**
 
-> [https://view.genially.com/5ce93e682763660f3077fbc2/horizontal-infographic-timeline-snthistoireinternet](https://view.genially.com/5ce93e682763660f3077fbc2/horizontal-infographic-timeline-snthistoireinternet)
+> [-> Frise de l'histoire d'internet](https://view.genially.com/5ce93e682763660f3077fbc2/horizontal-infographic-timeline-snthistoireinternet)
 > 
 
 Sur internet l'échange de données entre deux ordinateurs est basé :
