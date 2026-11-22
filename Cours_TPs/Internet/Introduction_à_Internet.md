@@ -5,8 +5,6 @@
 
 # Introduction à Internet :
 
-![internet](https://nsinfo.yo.fr/images/reseau_internet_terre.jpg)
-
 Grâce à sa souplesse et à son universalité, **internet** est devenu le moyen de communication principal entre les hommes et avec les machines.
 
 > [https://youtu.be/s18KtOLpCg4](https://youtu.be/s18KtOLpCg4)
