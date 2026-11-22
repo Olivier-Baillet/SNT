@@ -39,13 +39,14 @@ D'un point de vue technique, les protocoles TCP et IP sont au coeur d'internet.
 
 Le sigle TCP/IP signifie «Transmission Control Protocol/Internet Protocol» et se prononce «T-C-P-I-P». Il provient des noms des deux protocoles majeurs, c’est-à-dire les protocoles TCP et IP.
 
-<aside>
+
+<div class="rappel" markdown="1">
 💡
 
 **Protocole**
 Un protocole informatique est un ensemble de règles qui régissent les échanges de données ou le comportement collectif d’ordinateurs en réseaux ou d’objets connectés,
 
-</aside>
+</div>
 
 La suite de protocoles TCP/IP est conçue pour répondre à un certain nombre de critères parmi lesquels :
 
@@ -67,13 +68,14 @@ Les différentes couches du protocole TCP / IP utilisent l'encapsulation :
 
 ![couches](https://snt-nsi.net/snt/internet/images/201206_TCP_offload_engine_desactive.png)
 
-<aside>
+
+<div class="rappel" markdown="1">
 💡
 
 **Encapsulation**
 L'encapsulation, en informatique et spécifiquement pour les réseaux informatiques, est un procédé consistant à inclure les données d'un protocole dans un autre protocole.
 
-</aside>
+</div>
 
 Cela permet de séparer la fonction de chaque couche de communication. C'est un choix de conception modulaire.
 
