@@ -130,17 +130,9 @@ Précédemment, nous avons vu qu’internet est un « réseau de réseaux ». No
 
 Voici la représentation d’un « mini internet simplifié » :
 
-
-Et voici une version plus détaillée :
-
 ![image.png](Introduction%20%C3%A0%20Internet/image.png)
 
-Un switch :
-![image.png](Module%20Internet/image.png)
 
-
-Un routeur :
-![image.png](Module%20Internet/image%201.png)
 
 
 Nous avons sur ce schéma les éléments suivants :
@@ -151,7 +143,14 @@ Nous avons sur ce schéma les éléments suivants :
 
 Un **switch** est une sorte de « multiprise intelligente » qui permet de relier entre eux tous les ordinateurs appartenant à un même réseau, que nous appelerons "local" (nous verrons des exemples un peu plus bas). Pour ce faire, un switch est composé d’un nombre plus ou moins important de prises RJ45 femelles (un câble ethernet (souvent appelé « câble réseau ») possède 2 prises RJ45 mâles à ses 2 extrémités).
 
+Un switch : ![image.png](Module%20Internet/image.png)
+
 Un **routeur** permet de relier ensemble plusieurs réseaux, il est composé d’un nombre plus ou moins important d’interfaces réseau (cartes réseau). Les routeurs les plus simples que l’on puisse rencontrer permettent de relier ensemble deux réseaux (ils possèdent alors 2 interfaces réseau), mais il existe des routeurs capables de relier ensemble une dizaine de réseaux.
+
+
+Un routeur : ![image.png](Module%20Internet/image%201.png)
+
+
 
 Evolution du débit sur internet :
 
