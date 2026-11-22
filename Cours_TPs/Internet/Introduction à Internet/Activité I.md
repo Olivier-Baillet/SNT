@@ -26,9 +26,13 @@ Dans chacun des cas, on répondra aux questions suivantes.
 
 <div class="methode" markdown="1">
 A. **Réseau centré :** un ordinateur au centre est connecté par un câble à chacun des autres.
+    
 B. **Réseau décentralisé :** un ordinateur est au centre, et trois ordinateurs sont connectés à lui. Deux autres ordinateurs sont connectés à chacun de ces trois ordinateurs.
+
 C. **Graphe complet :** chaque ordinateur est relié par un câble à chacun des autres ordinateurs.
+
 D. **Réseau distribué :** les ordinateurs sont placés au hasard dans la salle, et chacun est directement relié à trois ordinateurs parmi les plus proches.
+
 </div>
     
 ### Bilan
