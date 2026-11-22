@@ -68,14 +68,14 @@ Lancer **Gnutella :**
     - Entrer le nom du fichier pour le retrouver sur la première machine
     - Cliquer sur la ligne du fichier puis le télécharger
 
-<aside>
+<div class="rappel" markdown="1">
 💡
 
 ### A1
 
 **Appelez le professeur pour valider**
 
-</aside>
+</div>
 
 ---
 
@@ -137,13 +137,13 @@ Mais il faut admettre que la grande majorité des fichiers qu'on y trouve sont i
 
 ![image.png](Le%20r%C3%A9seau%20pair-%C3%A0-pair%20(P2P)/image%207.png)
 
-<aside>
+<div class="rappel" markdown="1">
 💡
 
 ### A2
 
 **Répondre aux questions**
 
-</aside>
+</div>
 
 ---
