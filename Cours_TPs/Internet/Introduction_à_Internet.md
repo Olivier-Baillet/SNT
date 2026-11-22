@@ -103,6 +103,8 @@ Quand un ordinateur A "désire" envoyer des données à un ordinateur B, après 
 
 Pour vérifier que les paquets sont bien arrivés le protocole TCP utilise une poignée de main à trois temps :
 
+![Poignee_main](Images/Protocole-TCP-poigner_main.png)
+
 
 Dans le cas où un paquet n'est pas arrivé à destination, le paquet est renvoyé. **Le protocole TCP permet donc de fiabiliser la transmission (sauf en cas de panne matérielle). Cependant il ne permet de garantir la vitesse avec laquelle le paquet finira par arriver.**
 
