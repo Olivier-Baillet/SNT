@@ -16,21 +16,21 @@ en modifiant les communications qui passent par son ordinateur.
 Dans toute la suite, on représente le réseau par un graphe, où les sommets sont les ordinateurs, et les arêtes les câbles.
 On étudie différentes manières de connecter les ordinateurs entre eux.
 
+### Questions
+
 Dans chacun des cas, on répondra aux questions suivantes.  
-    1. Représenter cette configuration par un graphe.
-    2.  Combien de câbles sont nécessaires ?
-    3. Si un câble ou un ordinateur cesse de fonctionner, les autres ordinateurs peuvent-ils continuer à communiquer ?
-    4. Un ordinateur peut-il bloquer, espionner ou modifier les communications entre les autres ordinateurs ?
+1. Représenter cette configuration par un graphe.
+2.  Combien de câbles sont nécessaires ?
+3. Si un câble ou un ordinateur cesse de fonctionner, les autres ordinateurs peuvent-ils continuer à communiquer ?
+4. Un ordinateur peut-il bloquer, espionner ou modifier les communications entre les autres ordinateurs ?
+
+<div class="methode" markdown="1">
+A. **Réseau centré :** un ordinateur au centre est connecté par un câble à chacun des autres.
+B. **Réseau décentralisé :** un ordinateur est au centre, et trois ordinateurs sont connectés à lui. Deux autres ordinateurs sont connectés à chacun de ces trois ordinateurs.
+C. **Graphe complet :** chaque ordinateur est relié par un câble à chacun des autres ordinateurs.
+D. **Réseau distribué :** les ordinateurs sont placés au hasard dans la salle, et chacun est directement relié à trois ordinateurs parmi les plus proches.
+</div>
     
-    <div class="methode" markdown="1">
-    💡
-    
-    A. **Réseau centré :** un ordinateur au centre est connecté par un câble à chacun des autres.
-    B. **Réseau décentralisé :** un ordinateur est au centre, et trois ordinateurs sont connectés à lui. Deux autres ordinateurs sont connectés à chacun de ces trois ordinateurs.
-    C. **Graphe complet :** chaque ordinateur est relié par un câble à chacun des autres ordinateurs.
-    D. **Réseau distribué :** les ordinateurs sont placés au hasard dans la salle, et chacun est directement relié à trois ordinateurs parmi les plus proches.
-    </div>
-    
-Bilan
-    1.  Les contraintes sont-elles compatibles ?
-    2. Pour vérifier au mieux les trois conditions, quel semble être le meilleur réseau ?
+### Bilan
+1.  Les contraintes sont-elles compatibles ?
+2. Pour vérifier au mieux les trois conditions, quel semble être le meilleur réseau ?
