@@ -65,8 +65,6 @@ Le sigle TCP/IP signifie «Transmission Control Protocol/Internet Protocol» et 
 
 
 <div class="rappel" markdown="1">
-💡
-
 **Protocole**
 Un protocole informatique est un ensemble de règles qui régissent les échanges de données ou le comportement collectif d’ordinateurs en réseaux ou d’objets connectés,
 
@@ -92,8 +90,6 @@ Les différentes couches du protocole TCP / IP utilisent l'encapsulation :
 
 
 <div class="rappel" markdown="1">
-💡
-
 **Encapsulation**
 L'encapsulation, en informatique et spécifiquement pour les réseaux informatiques, est un procédé consistant à inclure les données d'un protocole dans un autre protocole.
 
@@ -161,10 +157,14 @@ Evolution du débit sur internet :
 
 ![image.png](Introduction%20%C3%A0%20Internet/37c16d53-b5bb-4413-9944-7ff32c5ba749.png)
 
-Remarques :
 
+### Remarques :
+<div class="rappel" markdown="1">
+    
 - Différentes structures :
     - Le réseau « décentralisé » correspond au réseau téléphonique (du moins, avant qu'il ne soit numérisé).
     - Le réseau « centré » correspond (dans l'idée) à la télévision, ou à la diffusion d'un journal imprimé.
 - En répondant à la dernière question, je précise que c'est une bonne illustration du métier d'ingénieur, dont le travail est de trouver la meilleure solution à un problème soumis à plusieurs contraintes incompatibles (avec comme exemple la construction d'un pont routier au dessus d'une rivière, dont on veut qu'il soit proche de la sortie d'autoroute, mais sans faire exploser le traffic dans un petit village, tout en préservant une zone naturelle protégée, en diminuant les coût au maximum pour construire un ouvrage le plus solide et durable possible…).
 - Il est possible de faire le travail sur le réseau décrentralisé en classe entière (parce que c'est le plus compliqué à dessiner), puis diviser la classe en trois groupes pour travailler les suivants, avant une mise en commun. Cela permet de gagner du temps…
+- 
+</div>
