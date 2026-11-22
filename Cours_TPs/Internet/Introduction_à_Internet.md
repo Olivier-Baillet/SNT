@@ -16,7 +16,7 @@ Il est important de faire la distinction entre **Internet** et le **Web**.
 
 Le Web est une des parties d'Internet 
 
-[Différence internet Web](Images/infographie-difference-W_I.png)
+![Différence internet Web](Images/infographie-difference-W_I.png)
 
 ## **Repères historiques**
 
