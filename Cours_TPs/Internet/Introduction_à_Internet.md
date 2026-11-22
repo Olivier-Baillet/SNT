@@ -159,3 +159,6 @@ Evolution du débit sur internet :
 ![image.png](Introduction%20%C3%A0%20Internet/image%202.png)
 
 ![image.png](Introduction%20%C3%A0%20Internet/37c16d53-b5bb-4413-9944-7ff32c5ba749.png)
+
+
+![image.png](Introduction%20%C3%A0%20Internet/minute-internet-2024.png)
