@@ -83,7 +83,6 @@ Quand un ordinateur A "désire" envoyer des données à un ordinateur B, après 
 
 Pour vérifier que les paquets sont bien arrivés le protocole TCP utilise une poignée de main à trois temps :
 
-![tcp](https://snt-nsi.net/snt/internet/images/poignee_tcp.png)
 
 Dans le cas où un paquet n'est pas arrivé à destination, le paquet est renvoyé. **Le protocole TCP permet donc de fiabiliser la transmission (sauf en cas de panne matérielle). Cependant il ne permet de garantir la vitesse avec laquelle le paquet finira par arriver.**
 
@@ -91,13 +90,11 @@ Dans le cas où un paquet n'est pas arrivé à destination, le paquet est renvoy
 
 Le datagramme IP est constitué d’un entête IP suivi d’un paquet contenant les données envoyées.
 
-![paquet](https://snt-nsi.net/snt/internet/images/IP_paquet.jpg)
 
 L’entête IP contient (entre autres) **l’adresse IP** du destinataire et de l’émetteur, ainsi que les informations pour la gestion de la fragmentation du datagramme.
 
 Une adresse IP est un code (une adresse) qui permet la communication via internet et l’identification d’un appareil sur le réseau. Elle se présente sous la forme d’une succession de chiffres, comme `192.168.1.25`.
 
-![ip](https://snt-nsi.net/snt/internet/images/IP.png)
 
 Le **masque de réseau** permet de définir quelle partie de l'adresse IP est celle du réseau, et quelle partie est celle de la machine. Ainsi la machine dont l'IP est 172.16.180.1 avec la masque 255.255.0.0 a pour adresse de réseau 172.16.X.X et pour adresse de machine X.X.180.1
 
@@ -111,7 +108,6 @@ Précédemment, nous avons vu qu’internet est un « réseau de réseaux ». No
 
 Voici la représentation d’un « mini internet simplifié » :
 
-![mini_internet](https://snt-nsi.net/snt/internet/images/mini_internet.png)
 
 Et voici une version plus détaillée :
 
@@ -119,11 +115,9 @@ Et voici une version plus détaillée :
 
 Un switch :
 
-![paquet](https://snt-nsi.net/snt/internet/images/switch1.jpg)
 
 Un routeur :
 
-![paquet](https://snt-nsi.net/snt/internet/images/routeur.jpg)
 
 Nous avons sur ce schéma les éléments suivants :
 
