@@ -64,8 +64,6 @@ En bref Le protocole IP s'occupe d'envoyer des données à un destinatire alors 
 
 Les différentes couches du protocole TCP / IP utilisent l'encapsulation :
 
-![couches](https://snt-nsi.net/snt/internet/images/201206_TCP_offload_engine_desactive.png)
-
 
 <div class="rappel" markdown="1">
 💡
