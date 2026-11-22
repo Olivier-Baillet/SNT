@@ -60,7 +60,7 @@ Faites des `« ipconfig »` pour vérifier les adresses IP des 4 machines.
 Effectuez un `"ping"` de la machine M2 vers la machine M4, vérifiez que
 les paquets transmis sont bien reçus.
 
-<aside>
+<div class="rappel" markdown="1">
 ❓
 
 *Faîtes des captures d’écran (Windows+Maj+S)* (prendre toute la fenêtre) *:*
@@ -71,7 +71,7 @@ les paquets transmis sont bien reçus.
 
 *Copier-coller dans un traitement de texte.*
 
-</aside>
+div
 
 ---
 
@@ -122,7 +122,7 @@ les paquets transmis sont bien reçus.
 Effectuez un ping entre deux machines de deux réseaux différents,
 vérifiez que les paquets transmis sont bien reçus.
 
-<aside>
+<div class="rappel" markdown="1">
 ❓
 
 *Faîtes des captures d’écran :*
@@ -132,7 +132,7 @@ vérifiez que les paquets transmis sont bien reçus.
 
 *Copier-coller dans le traitement de texte*
 
-</aside>
+div
 
 ---
 
@@ -149,7 +149,7 @@ La commande "traceroute", suivie de l’adresse IP de destination, permet de voi
 
 Faites un "traceroute" entre l'ordinateur M14 et l'ordinateur M9
 
-<aside>
+<div class="rappel" markdown="1">
 ❓
 
 *Faîtes une capture d’écran :*
@@ -159,7 +159,7 @@ Faites un "traceroute" entre l'ordinateur M14 et l'ordinateur M9
 *La copier-coller dans le traitement de texte.
 Indiquer, le chemin parcouru par le paquet de données.*
 
-</aside>
+div
 
 ### Panne
 
@@ -177,7 +177,7 @@ Il faudra éviter d’utiliser « supprimer tous les câbles » puis redessinez 
 Supprimez le câble réseau qui relie le routeur F au routeur E, refaites
 un "traceroute" entre M14 et M9.
 
-<aside>
+<div class="rappel" markdown="1">
 ❓
 
 *Faîtes une capture d’écran :*
@@ -187,6 +187,6 @@ un "traceroute" entre M14 et M9.
 *La copier-coller dans le traitement de texte.
 Indiquer, le chemin parcouru par le paquet de données.*
 
-</aside>
+div
 
 ATTENTION : cela peut ne pas fonctionner du premier coup, car la mise à jour des tables de routage n'est pas immédiate : vous pouvez essayer de faire un ping entre M14 et M9, si cela ne fonctionne pas (timeout), attendez quelques secondes et recommencez. Une fois que le ping fonctionne, vous pouvez faire le traceroute.
