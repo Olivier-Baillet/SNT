@@ -2,7 +2,6 @@
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <link rel="stylesheet" href="bordure.css">
 
-
 # Activité I :
 
 Dix élèves, possédant tous et toutes un ordinateur, se retrouvent pour jouer à un jeu vidéo en réseau, en connectant leurs ordinateurs les uns aux autres avec des câbles. Leurs contraintes sont :
@@ -23,7 +22,7 @@ On étudie différentes manières de connecter les ordinateurs entre eux.
     3. Si un câble ou un ordinateur cesse de fonctionner, les autres ordinateurs peuvent-ils continuer à communiquer ?
     4. Un ordinateur peut-il bloquer, espionner ou modifier les communications entre les autres ordinateurs ?
     
-    <div class="rappel" markdown="1">
+    <div class="methode" markdown="1">
     💡
     
     1. **Réseau centré :** un ordinateur au centre est connecté par un câble à chacun des autres.
