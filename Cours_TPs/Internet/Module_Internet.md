@@ -1,6 +1,6 @@
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<link rel="stylesheet" href="../../css/bordure.css">
+<link rel="stylesheet" href="../css/bordure.css">
 
 # Module Internet
 
@@ -71,7 +71,7 @@ les paquets transmis sont bien reçus.
 
 *Copier-coller dans un traitement de texte.*
 
-div
+</div>
 
 ---
 
@@ -132,7 +132,7 @@ vérifiez que les paquets transmis sont bien reçus.
 
 *Copier-coller dans le traitement de texte*
 
-div
+</div>
 
 ---
 
@@ -159,7 +159,7 @@ Faites un "traceroute" entre l'ordinateur M14 et l'ordinateur M9
 *La copier-coller dans le traitement de texte.
 Indiquer, le chemin parcouru par le paquet de données.*
 
-div
+</div>
 
 ### Panne
 
@@ -187,6 +187,6 @@ un "traceroute" entre M14 et M9.
 *La copier-coller dans le traitement de texte.
 Indiquer, le chemin parcouru par le paquet de données.*
 
-div
+</div>
 
 ATTENTION : cela peut ne pas fonctionner du premier coup, car la mise à jour des tables de routage n'est pas immédiate : vous pouvez essayer de faire un ping entre M14 et M9, si cela ne fonctionne pas (timeout), attendez quelques secondes et recommencez. Une fois que le ping fonctionne, vous pouvez faire le traceroute.
