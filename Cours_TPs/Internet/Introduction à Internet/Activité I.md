@@ -22,7 +22,7 @@ On étudie différentes manières de connecter les ordinateurs entre eux.
     3. Si un câble ou un ordinateur cesse de fonctionner, les autres ordinateurs peuvent-ils continuer à communiquer ?
     4. Un ordinateur peut-il bloquer, espionner ou modifier les communications entre les autres ordinateurs ?
     
-    <div class="methode" markdown="1">
+    <div class="attention" markdown="1">
     💡
     
     1. **Réseau centré :** un ordinateur au centre est connecté par un câble à chacun des autres.
