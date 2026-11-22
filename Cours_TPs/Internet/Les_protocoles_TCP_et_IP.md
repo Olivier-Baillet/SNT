@@ -27,7 +27,7 @@ Les adresses IP sont de la forme : "a.b.c.d", avec a, b, c et d compris entre 0 
 
 N.B. Une autre norme est en train d'être déployée, la norme IPV6 (alors que les adresses IP vues ci-dessus appartiennent à la norme IPV4). Pourquoi cette nouvelle norme ? Parce qu' avec le système IPV4, nous allons manquer d'adresses IP disponibles sur internet dans les prochaines années en raison du trop grand nombre d'objet connecté (téléphone, enceinte, tv, PC, ...).
 
-<aside>
+<div class="rappel" markdown="1">
 💡
 
 ### **Exercice 1 :**
@@ -57,7 +57,7 @@ Il est possible de réaliser un ping avec l'invite de commandes cmd directement 
 ping wikipedia.org
 ```
 
-</aside>
+</div>
 
 ## **Le protocole TCP**
 
@@ -69,7 +69,7 @@ Chaque paquet qui circule sur Internet à une en-tête avec des données supplé
 
 ![](https://nsinfo.yo.fr/images/tcp_ip.PNG)
 
-<aside>
+<div class="rappel" markdown="1">
 💡
 
 ### **Exercice 3 :**
@@ -87,7 +87,7 @@ Ordinateur A veut envoyer une photo à Ordinateur B. Cette photo est découpée 
     
     Ecrire au minimum une ligne d’explication pour chacune de ces quatre étapes.
     
-</aside>
+</div>
 
 ## **A retenir :**
 
