@@ -91,14 +91,14 @@ Sur 192.168.0.1 :
 On contacte normalement un serveur via une **URL**, pas via une adresse IP.
 Un **système de noms de domaine (ou DNS**) traduit l’URL en adresse IP.
 
-<aside>
+<div class="rappel" markdown="1">
 💡
 
 ### A1
 
 **Appelez le professeur pour valider**
 
-</aside>
+</div>
 
 ---
 
@@ -170,14 +170,14 @@ Depuis le poste **192.168.0.1** :
 
 ![image.png](Serveur%20DNS%20(Domain%20Name%20System)/image%207.png)
 
-<aside>
+<div class="rappel" markdown="1">
 💡
 
 ### A2
 
 **Appelez le professeur pour valider**
 
-</aside>
+</div>
 
 ---
 
@@ -189,14 +189,14 @@ Et pour finir, testons simplement la commande host [www.snt.fr](http://www.snt.f
 Nous voyons que le DNS fait son travail en nous fournissant l’adresse IP du serveur qui héberge la page internet.
 [www.snt.fr](http://www.snt.fr/) → 192.168.1.1
 
-<aside>
+<div class="rappel" markdown="1">
 💡
 
 ### A3
 
 **Appelez le professeur pour valider**
 
-</aside>
+</div>
 
 ---
 
@@ -227,13 +227,13 @@ Adresse numérique de Google : __________________
 
 ![image.png](Serveur%20DNS%20(Domain%20Name%20System)/image%209.png)
 
-<aside>
+<div class="rappel" markdown="1">
 💡
 
 ### A4
 
 **Compléter le document**
 
-</aside>
+</div>
 
 ---
