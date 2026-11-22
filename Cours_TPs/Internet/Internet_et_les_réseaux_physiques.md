@@ -38,7 +38,7 @@ Une liaison peut être **filaire**, un câble par exemple, ou **hertzienne**, 
 
 Carte mondiale des câbles sous-marins
 
-<aside>
+<div class="rappel" markdown="1">
 💡
 
 ### **Exercice 1 :**
@@ -47,7 +47,7 @@ A l'aide du site interactif [Submarine cable](https://www.submarinecablemap.com
 
 Attention traceroute part des Etats-Unis il faudra donc rajouter le chemin passant par la france également. 
 
-</aside>
+</div>
 
 Les liaisons **filaires**:
 
@@ -85,7 +85,7 @@ Elle correspond à une offre pouvant aller jusqu'à 20 Mégabits/s. |
 | 4G | La 4G offre un débit pouvant aller jusqu'à 30 Mégabits/s. |
 | WIFI | Le WIFI offre un débit pouvant aller jusqu'à 54 Mégabits/s. |
 
-<aside>
+<div class="rappel" markdown="1">
 💡
 
 ### **Exercice 2 :**
@@ -96,4 +96,4 @@ Calculer le temps qu'il faut pour télécharger une vidéo de 700 Mo avec un con
 
 Calculer le temps qu'il faut pour télécharger un jeu vidéo de 10 Go avec la fibre optique.
 
-</aside>
+</div>
