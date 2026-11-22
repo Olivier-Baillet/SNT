@@ -85,13 +85,13 @@ from PIL import Image
 imageSource = Image.open( "image.png" )
 
 # récupération des dimensions de l'image (source) du perroquet :
-tailleX , TailleY = ... .size # 4.1 Instruction size
+tailleX , tailleY = ... .size # 4.1 Instruction size
 
 # création d'une nouvelle image de même dimension que celle du perroquet :
 imageGris = Image.new("RGB" , ( ... , ... )) # 4.2 Nouvelle image
 
 # balayage de toute l'image du perroquet pixel par pixel :
-for y in range (TailleY ) : # balayage de chacune des lignes de l'image
+for y in range (tailleY ) : # balayage de chacune des lignes de l'image
     for x in range (tailleX ) :  # balayage de chacune des colonnes de l'image
 
 		# À compléter :
@@ -158,7 +158,7 @@ Pendant ce TP, nous utiliserons deux variables images différentes :
 - imageSource : Correspond à l’image du d’origine en couleur.
 - imageGris :  Correspond à la nouvelle image qu’on souhaite modifier.
 
-1) Remplacer les “…” de la ligne 8 du programme par une variable image, qui utilisera l’instruction `.size` afin de stocker dans les variables `largeur` et `longueur` les valeurs correspondantes aux deux dimensions de l'image initiale du perroquet.
+1) Remplacer les “…” de la ligne 8 du programme par une des deux variables images, qui utilisera l’instruction `.size` afin de stocker dans les variables `largeur` et `longueur` les valeurs correspondantes aux deux dimensions de l'image initiale du perroquet.
 
 <div class="rappel"  markdown="1">
 
@@ -168,10 +168,10 @@ Pendant ce TP, nous utiliserons deux variables images différentes :
 Pour récupérer les deux valeurs des dimensions de l'image photo, on utilise l'instruction :
 
 ```python
-tailleX , TailleY = photo.size
+tailleX , tailleY = photo.size
 ```
 
-Les variables `largeur` et `longueur` vont ainsi contenir les valeurs numériques correspondantes aux deux dimensions de l'image initiale du perroquet.
+Les variables `tailleX` et `tailleY` vont ainsi contenir les valeurs numériques correspondantes aux deux dimensions de l'image initiale du perroquet.
 
 Si on souhaite récupérer les valeurs pour une autre image, il faut dans ce cas changer la variable `photo` par la variable de l’image souhaitée.
 
@@ -179,10 +179,10 @@ Par exemple si on crée une nouvelle image :
 
 ```python
 imageExemple = Image.new("RGB" , ( 10, 20 ))
-tailleX , TailleY = imageExemple.size
+tailleX , tailleY = imageExemple.size
 ```
 
-Pour la variable `imageExemple`, cela donne une variable `tailleX` égale à 10 et une variable `TailleY` égale à 20.
+Pour la variable `imageExemple`, cela donne une variable `tailleX` égale à 10 et une variable `tailleY` égale à 20. On peut donc utiliser ces deux variables pour définir une nouvelle image de même taille que `imageExemple`.
 
 </div>
 
@@ -200,7 +200,7 @@ On a déjà vu dans le TP précédent comment créer une nouvelle image de large
 imageGris = Image.new("RGB" , ( L, H ))
 ```
 
-Ici, `L` et `H` doivent être remplacés par des variables qui s’adapteront aux dimensions de l’image.
+Ici, `L` et `H` doivent être remplacés par les variables tailles de l'image dont on souhaite reproduire la même taille.
 
 </div>
 
@@ -245,9 +245,9 @@ L'instruction `int` permet de ne garder que la partie entière (c'est-à-dire 
 
 </div>
 
-5) Compléter la ligne 25 du programme en utilisant l’instruction `putpixel` afin de mettre le pixel de coordonnées (x,y) de l'image nouvellement construite au niveau de gris calculé.
+5) Compléter la ligne 25 du programme en utilisant l’instruction `putpixel` afin de mettre le pixel de coordonnées (x,y) de l'image nouvellement construite au niveau de gris calculé à la question précédente.
 
-> Penser à utiliser une variable déjà créée dans ce programme.
+> Penser à utiliser la variable déjà créée dans ce programme.
     
 
 <div class="rappel"  markdown="1">
@@ -261,7 +261,7 @@ Pour affecter les informations (r, v, b) au pixel de coordonnées (x, y) de la v
 photo.putpixel((x,y),(r,v,b))
 ```
 
-On remplace ensuite, pour ce pixel, la couleur (r, v, b) par la couleur nouvellement créé `g` pour chacune des composantes.
+On remplace ensuite, pour ce pixel, la couleur (r, v, b) par la couleur nouvellement créé `g` pour **chacune** des composantes.
 
 </div>
 
@@ -280,7 +280,7 @@ imageSource = Image.open( "image.png" )
 
 ## Rendu
 
-8) Rendre votre fichier Python dans Moodle.
+8) Rendre votre fichier Python dans le casier de l'ENT.
 Pas de pdf avec le code à l’intérieur, ni l’image résultat, mais bien le code que vous avez enregistré puis modifié à partir de l’étape : **2. Création du programme**
 
 
@@ -354,4 +354,4 @@ imageBut.show( )
 
 ![image.png](TP%20Niveau%20de%20gris/image%203.png)
 
-5) Rendre votre fichier Python dans Moodle.
+5) Rendre votre fichier Python dans casier de l'ENT.
