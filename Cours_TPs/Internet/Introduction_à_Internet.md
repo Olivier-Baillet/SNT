@@ -133,14 +133,6 @@ Voici la représentation d’un « mini internet simplifié » :
 ![image.png](Introduction%20%C3%A0%20Internet/image.png)
 
 
-
-
-Nous avons sur ce schéma les éléments suivants :
-
-- 15 ordinateurs : M1 à M15
-- 6 switchs : R1 à R6
-- 8 routeurs : A, B, C, D, E, F, G et H
-
 Un **switch** est une sorte de « multiprise intelligente » qui permet de relier entre eux tous les ordinateurs appartenant à un même réseau, que nous appelerons "local" (nous verrons des exemples un peu plus bas). Pour ce faire, un switch est composé d’un nombre plus ou moins important de prises RJ45 femelles (un câble ethernet (souvent appelé « câble réseau ») possède 2 prises RJ45 mâles à ses 2 extrémités).
 
 Un switch : ![image.png](Module%20Internet/image.png)
